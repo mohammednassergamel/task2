@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lgin"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="300dp"
+        android:textSize="40dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="email@gmail.com"
+        android:textSize="30dp"
+        android:background="#F1F6FA"
+        android:drawableLeft="@android:drawable/sym_action_email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#F1F6FA"
+        android:hint="Password"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="For got password?"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="220dp"
+
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:text="sign in"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don it have account? Sign up"
+        android:textSize="25dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="30dp"
+        />
+</LinearLayout>
